@@ -58,7 +58,7 @@ sh.addShard("shard0/mongodb-shard1-0.mongodb-shard1-headless-service.next-vfnet.
 
 ```
 
-#### 7. Test
+#### 7. Check Status
 
 ```
 sh.status();
