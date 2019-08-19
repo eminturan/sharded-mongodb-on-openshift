@@ -38,9 +38,9 @@ Open the config's pod's terminal, then
 ```
 mongo --port 27018
 
- cfg= {_id: "configdb", members: [
-        {_id: 0, host: "mongodb-configdb-0.mongodb-configdb-headless-service.next-vfnet.svc.cluster.local:27018"}
-    ], settings: {electionTimeoutMillis: 2000}};
+cfg= {_id: "configdb", members: [
+     {_id: 0, host: "mongodb-configdb-0.mongodb-configdb-headless-service.next-vfnet.svc.cluster.local:27018"}
+], settings: {electionTimeoutMillis: 2000}};
 
 rs.initiate(cfg);
 ```
