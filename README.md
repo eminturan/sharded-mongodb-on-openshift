@@ -1,0 +1,1 @@
+# sharded-mongo-on-openshift
