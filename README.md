@@ -54,6 +54,8 @@ oc apply -f mongos.yml
 #### 6. Add Shards
 
 ```
+mongo --port 27018
+
 sh.addShard("shard0/mongodb-shard1-0.mongodb-shard1-headless-service.namespace.svc.cluster.local:27018,mongodb-shard2-0.mongodb-shard2-headless-service.namespace.svc.cluster.local:27018");
 
 ```
